@@ -8,6 +8,8 @@
 // }
 
 // console.log("Sum =", sum);
+
+
 // ------------------------Task 2: Find Maximum and Minimum-----------------------
 // -----------------myself------------->
 // let arr = [12, 7, 45, 22, 9];
@@ -23,6 +25,8 @@
 // }
 // console.log("Max =", max);
 // console.log("Min =", min);
+
+
 // ---------------------------Task 3: Reverse an Array (without using reverse())--------------
 // -----------------myself------------->
 // let arr = [1, 2, 3, 4, 5];
@@ -31,6 +35,8 @@
 //   reversed.push(arr[i]);
 // }
 // console.log(reversed);
+
+
 // ---------------------------Task 4: Remove Duplicates from Array--------------------
 // -----------------myself------------->
 // let arr = [1, 2, 2, 3, 4, 4, 5];
@@ -41,6 +47,8 @@
 //   }
 // }
 // console.log(unique);
+
+
 // -----------------------------Task 5: Count Occurrences of Each Element---------------
 // -----------------myself------------->
 // let arr = ["apple", "banana", "apple", "cherry", "banana", "apple"];
@@ -56,6 +64,8 @@
 // for (let key in count) {
 //   console.log(`${key}: ${count[key]}`);
 // }
+
+
 // ----------------------------------Task 6: Filter Even Numbers--------------------------------
 // -----------------myself------------->
 // let arr = [10, 15, 20, 25, 30];
@@ -66,6 +76,8 @@
 //   }
 // }
 // console.log(evens);
+
+
 // ----------------------------------task 7:Merge Two Arrays Without Duplicates---------------------
 // -----------------myself------------->
 // let a = [1, 2, 3];
@@ -78,6 +90,8 @@
 //   }
 // }
 // console.log(merged);
+
+
 // ------------------------------------Task 8: Sort Numbers Ascending & Descending-------------
 // -----------------myself------------->
 // let nums = [42, 7, 19, 3, 25];
@@ -87,17 +101,23 @@
 
 // console.log("Ascending:", ascending);
 // console.log("Descending:", descending);
+
+
 // --------------------------------Task 9: Find Second Largest Number------------------
 // -----------------myself------------->
 // let arr = [10, 25, 5, 30, 20];
 // let sorted = arr.slice().sort((a, b) => b - a);
 // let secondLargest = sorted[1];
 // console.log("Second Largest =", secondLargest);
+
+
 // -------------------------------- Task 10: Flatten a Nested Array---------------
 // -----------------myself------------->
 // let arr = [1, [2, [3, 4]], 5];
 // let flatArr = arr.flat(Infinity);
 // console.log(flatArr);
+
+
 // -------------------------------Task 11: Square Each Number (Using map())------------------------
 // -----------------myself------------->
 // let nums = [2, 4, 6, 8];
@@ -105,6 +125,8 @@
 // let squared = nums.map(num => num * num);
 
 // console.log(squared);
+
+
 // --------------------------------Task 12: Filter Words by Length (Using filter())-----------------
 // -----------------myself------------->
 // let words = ["sun", "planet", "moon", "star", "galaxy"];
@@ -112,6 +134,8 @@
 // let longWords = words.filter(word => word.length > 4);
 
 // console.log(longWords);
+
+
 // --------------------------Task 13: Sum of Numbers (Using reduce())--------------------------
 // -----------------myself------------->
 // let numbers = [5, 10, 15, 20];
@@ -119,6 +143,8 @@
 // let sum = numbers.reduce((total, num) => total + num, 0);
 
 // console.log(sum);
+
+
 // ------------------------Task 14: Find First Negative Number (Using find())--------------------------
 // -----------------myself------------->
 // let arr = [4, 8, -3, 9, -6];
@@ -126,6 +152,8 @@
 // let firstNegative = arr.find(num => num < 0);
 
 // console.log(firstNegative);
+
+
 // ----------------------Task 15: Sort Objects by Age----------------------------------------
 // -----------------myself------------->
 // let users = [
@@ -135,6 +163,8 @@
 // ];
 // let sortedUsers = users.sort((a, b) => a.age - b.age);
 // console.log(sortedUsers);
+
+
 // ---------------------Task 16: Count Even and Odd Numbers (Using reduce())------------------
 // -----------------myself------------->
 // let nums = [1, 2, 3, 4, 5, 6];
@@ -150,6 +180,8 @@
 //   { even: 0, odd: 0 }
 // );
 // console.log(result);
+
+
 // --------------------------Task 17: Remove Falsy Values (Using filter())------------------
 // -----------------myself------------->
 // let arr = [0, "hello", false, 42, "", null, "JS", undefined];
@@ -157,6 +189,8 @@
 // let filtered = arr.filter(item => Boolean(item));
 
 // console.log(filtered);
+
+
 // ------------------------------ Task 18: Capitalize Each Word (Using map())-----------------------
 // -----------------myself------------->
 // let words = ["apple", "banana", "cherry"];
@@ -164,6 +198,8 @@
 // let capitalized = words.map(word => word.charAt(0).toUpperCase() + word.slice(1));
 
 // console.log(capitalized);
+
+
 // -------------------------------Task 19: Group Numbers by Even/Odd--------------
 // -----------------myself------------->
 // let numbers = [10, 15, 20, 25, 30];
@@ -171,6 +207,8 @@
 // let odd = numbers.filter(num => num % 2 !== 0);
 // console.log("Even:", even);
 // console.log("Odd:", odd);
+
+
 // -------------------------------------Task 20: Find Average Marks (Using reduce())----------------------
 // -----------------myself------------->
 // let marks = [75, 80, 90, 85];
@@ -178,6 +216,7 @@
 // let average = marks.reduce((sum, m) => sum + m, 0) / marks.length;
 
 // console.log("Average =", average);
+
 
 // ----------------------mini project-------------------------------------
 // -----------------myself------------->
